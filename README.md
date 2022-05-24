@@ -1,8 +1,23 @@
-# strapi-graphing
+#  Graphing - Strapi Plugin
 
-A trial to create a strapi graphing and analytics plugin
+### ⏳ Installation
 
-# What does this repo do?
+(Use **yarn** to install this plugin within your Strapi project (recommended). [Install yarn with these docs](https://yarnpkg.com/lang/en/docs/install/).)
 
-# Contact
+```bash
+yarn add strapi-graphing
+```
+
+After successful installation you've to build a fresh package that includes plugin UI. To archive that simply use:
+
+```bash
+yarn build
+yarn develop
+```
+
+or just run Strapi in the development mode with `--watch-admin` option:
+
+```bash
+yarn develop --watch-admin
+```
 

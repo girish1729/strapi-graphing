@@ -1,0 +1,31 @@
+{
+  "name": "strapi-graphing",
+  "version": "1.0.0",
+  "description": "A plugin for Strapi  for reporting with the data inside Strapi's database.",
+  "strapi": {
+    "kind": "plugin",
+    "name": "strapi-graphing",
+  "description": "A plugin for Strapi  for reporting with the data inside Strapi's database."
+  },
+  "scripts": {
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "dependencies": {
+    "recharts": "^2.1.6"
+  },
+  "author": {
+    "name": "Girish Venkatachalam",
+    "email": "girish@spamcheetah.com",
+    "url": "https://github.com/girish1729"
+  },
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=12.0.0"
+  },
+  "license": "MIT"
+}
