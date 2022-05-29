@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ratios",
+  "info": {
+    "singularName": "ratio",
+    "pluralName": "ratios",
+    "displayName": "ratio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "State": {
+      "type": "string"
+    },
+    "Percentage": {
+      "type": "float"
+    }
+  }
+}

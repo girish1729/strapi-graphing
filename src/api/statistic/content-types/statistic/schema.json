@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "statistic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Country": {
+      "type": "string"
+    },
+    "Spending": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,31 +1,34 @@
 {
-  "name": "strapi-graphing",
-  "version": "1.0.0",
-  "description": "A plugin for Strapi  for reporting with the data inside Strapi's database.",
-  "strapi": {
-    "kind": "plugin",
-    "name": "strapi-graphing",
-  "description": "A plugin for Strapi  for reporting with the data inside Strapi's database."
-  },
+  "name": "my-plugin-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
-    "publish:patch": "npm version patch && npm publish",
-    "publish:minor": "npm version minor && npm publish",
-    "publish:major": "npm version major && npm publish"
-  },
-  "peerDependencies": {
-    "@strapi/strapi": "^4.0.0"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
   "dependencies": {
-    "recharts": "^2.1.6"
+    "@strapi/icons": "^1.1.1",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "better-sqlite3": "7.4.6",
+    "d3": "^7.4.4",
+    "d3-react": "^1.0.4",
+    "react-dom": "^18.1.0",
+    "react-faux-dom": "^4.5.0"
   },
   "author": {
-    "name": "Girish Venkatachalam",
-    "email": "girish@spamcheetah.com",
-    "url": "https://github.com/girish1729"
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9ecc3671-775b-4a79-aac1-98e72d72387d"
   },
   "engines": {
-    "node": ">=12.x. <=16.x.x",
-    "npm": ">=12.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

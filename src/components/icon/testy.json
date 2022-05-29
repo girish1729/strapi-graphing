@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_icon_testies",
+  "info": {
+    "displayName": "testy",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Wonder": {
+      "type": "text"
+    }
+  }
+}
